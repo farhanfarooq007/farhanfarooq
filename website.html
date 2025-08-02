@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Business</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+#hero {
+  background: #007BFF;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+section {
+  padding: 40px 0;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #007BFF;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+</style>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Business</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to Our Business</h2>
+      <p>Professional solutions to grow your success.</p>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>We are a company committed to delivering top-quality services and building long-term relationships with our clients.</p>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Consulting</li>
+      <li>Development</li>
+      <li>Support</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Business. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
